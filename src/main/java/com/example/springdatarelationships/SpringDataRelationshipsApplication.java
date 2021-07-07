@@ -1,0 +1,15 @@
+package com.example.springdatarelationships;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringDataRelationshipsApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringDataRelationshipsApplication.class, args);
+    }
+
+}
